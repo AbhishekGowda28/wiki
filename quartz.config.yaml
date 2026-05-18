@@ -209,10 +209,21 @@ plugins:
       priority: 5
       condition: not-index
   - source: github:quartz-community/comments
-    enabled: false
+    enabled: true
     options:
       provider: giscus
-      options: {}
+      options:
+        repo: AbhishekGowda28/WIKI
+        repoId: R_kgDOSgAiHw
+        category: Announcements
+        categoryId: DIC_kwDOSgAiH84C9P9m
+        mapping: pathname
+        strict: false
+        reactionsEnabled: true
+        emitMetadata: false
+        inputPosition: bottom
+        theme: preferred_color_scheme
+        lang: en
     layout:
       position: afterBody
       priority: 10
