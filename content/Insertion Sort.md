@@ -1,17 +1,19 @@
 ---
 publish: true
+title: Insertion Sort
 created: 2026-03-21T11:10:35.508+05:30
-modified: 2026-05-17T11:56:36.813+05:30
+modified: 2026-05-18T14:15:46.590+05:30
 ---
 
 # Insertion Sort
 
 This sorting is similar to sorting playing cards in hand.
-\- We can think there are 2 sides, left we have sorted elements and right unsorted.
-\- We pick an element from unsorted list and compare it against sorted list
-\- When we encounter any elements greater than comparing element from unsorted list, we switch the elements
-\- We stop switching when we are at the end of the sorted list, making the element picked from unsorted list smallest
-\- Or, when we encounter a smaller number from the sorted list compared to the element
+
+- We can think there are 2 sides, left we have sorted elements and right unsorted.
+- We pick an element from unsorted list and compare it against sorted list
+- When we encounter any elements greater than comparing element from unsorted list, we switch the elements
+- We stop switching when we are at the end of the sorted list, making the element picked from unsorted list smallest
+- Or, when we encounter a smaller number from the sorted list compared to the element
 
 ```cpp
 // Unsorted list
@@ -39,8 +41,5 @@ From j=2 to A.lenght
 ```
 
 _Problem_: Write pseduo code for linear search of value `v` where its one of the element of the array at index `i` or `NIL` otherwise. And prove the algorithm using <u>LOOP INVARIANT</u>
-
-```cpp
-```
 
 _Problem_: Add 2 n-bit binary array A & B. The sum of 2 integers should be stored in binary form an (n+1)-element array C. State problem formally and write _pseudocode_
