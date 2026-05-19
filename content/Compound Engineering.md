@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-05-14T12:07:45.864+05:30
-modified: 2026-05-18T19:19:45.641+05:30
+created: 2026-05-19T13:55:12.074+05:30
+modified: 2026-05-19T13:55:12.074+05:30
 ---
 
 # Compound Engineering

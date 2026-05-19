@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-03-21T11:10:35.188+05:30
-modified: 2026-05-18T15:34:50.914+05:30
+created: 2026-05-19T13:55:12.356+05:30
+modified: 2026-05-19T13:55:12.356+05:30
 ---
 
 **Design Skills,** is combination of **Design principles** and **Design Patterns.**

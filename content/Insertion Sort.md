@@ -1,8 +1,8 @@
 ---
 publish: true
 title: Insertion Sort
-created: 2026-03-21T11:10:35.508+05:30
-modified: 2026-05-18T14:15:46.590+05:30
+created: 2026-05-19T13:55:12.065+05:30
+modified: 2026-05-19T13:55:12.065+05:30
 ---
 
 # Insertion Sort
