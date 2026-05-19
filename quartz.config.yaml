@@ -239,9 +239,12 @@ plugins:
   - source: github:quartz-community/footer
     enabled: true
     options:
+      showCredit: false
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/AbhishekGowda28
+        Stack Overflow: https://stackoverflow.com/users/9437418/abhishekgowda28
+        YouTube: https://www.youtube.com/channel/UCgoCC-pkN0OZ2SFtGZisgDw
+        # Bookmarks: https://abhishekgowda28.github.io/bookmark/
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
