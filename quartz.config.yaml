@@ -79,7 +79,10 @@ plugins:
     order: 40
   - source: github:quartz-community/table-of-contents
     enabled: true
-    order: 50
+    order: 20
+    layout:
+      position: right
+      priority: 20
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
@@ -154,6 +157,12 @@ plugins:
       priority: 50
   - source: github:quartz-community/graph
     enabled: true
+    options:
+      localGraph:
+        scale: 2
+      globalGraph:
+        scale: 1.2
+        depth: 1
     layout:
       position: right
       priority: 10
