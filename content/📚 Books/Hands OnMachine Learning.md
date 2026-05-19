@@ -1,8 +1,8 @@
 ---
 publish: true
 title: Hands-OnMachine Learning with Scikit-Learnand PyTorch
-created: 2026-05-19T13:55:12.103+05:30
-modified: 2026-05-19T13:55:12.103+05:30
+created: 2026-05-19T14:17:37.432+05:30
+modified: 2026-05-19T14:17:37.433+05:30
 ---
 
 # Hands on machine learning
