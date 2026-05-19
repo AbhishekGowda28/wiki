@@ -255,6 +255,7 @@ plugins:
         - description
         - tags
         - aliases
+        - categories
       excludedProperties: []
       hidePropertiesView: false
       delimiters: ---
