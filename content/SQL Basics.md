@@ -1,8 +1,8 @@
 ---
 publish: true
 title: SQL Basics
-created: 2026-03-21T11:10:40.710+05:30
-modified: 2026-05-18T14:02:39.717+05:30
+created: 2026-05-19T13:55:12.067+05:30
+modified: 2026-05-19T13:55:12.067+05:30
 ---
 
 > [!todo] Complete SQL murder

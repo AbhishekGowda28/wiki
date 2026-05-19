@@ -2,8 +2,8 @@
 publish: true
 aliases:
   - DSA
-created: 2026-03-21T11:10:35.185+05:30
-modified: 2026-05-18T15:34:39.709+05:30
+created: 2026-05-19T13:55:12.073+05:30
+modified: 2026-05-19T13:55:12.073+05:30
 ---
 
 # Data Structure and Algorithm
