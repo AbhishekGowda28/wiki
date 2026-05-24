@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-05-19T13:55:12.135+05:30
-modified: 2026-05-24T13:39:27.386+05:30
+modified: 2026-05-24T15:41:24.906+05:30
 ---
 
 # git
@@ -20,3 +20,26 @@ Commands to know the branch
 | local  | git branch --list   |
 | remote | git branch --remote |
 | both   | git branch --all    |
+
+## Git hooks
+
+Git hooks can be found in ./git/hooks folder. There we will find sample hook files, we can reuse them or create one with proper names.
+
+Example of using git hook: Using `commit-msg` hook
+
+1. Go to hooks folder and create a hook
+   ```bash
+   cd ./git/hooks
+   cp commit-msg.sample commit-msg
+   ```
+
+Since the `.git` folder is excluded from the commit tree, we can create a `git-template` folder and add our `hooks`&`info` in there.
+
+---
+
+references
+
+- [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
+- [Atlassian - git hooks](https://www.atlassian.com/git/tutorials/git-hooks)
+- [[How to create a git template directory-folder]]
+-
