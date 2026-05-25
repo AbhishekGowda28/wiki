@@ -1,10 +1,10 @@
 ---
 publish: true
 aliases:
-  - Books
-title: Books
+  - books
+title: books
 created: 2026-05-19T13:55:12.114+05:30
-modified: 2026-05-25T07:15:16.578+05:30
+modified: 2026-05-25T08:20:35.112+05:30
 ---
 
 # Books
