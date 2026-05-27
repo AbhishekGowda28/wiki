@@ -5,7 +5,9 @@ configuration:
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
+    provider: umami
+    host: https://cloud.umami.is/script.js
+    websiteId: c751a328-fd95-4ab8-a054-12e8bdb048b9
   locale: en-US
   baseUrl: abhishekgowda28.github.io/wiki
   ignorePatterns:
