@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: umami
-    host: https://cloud.umami.is/
+    host: https://cloud.umami.is
     websiteId: c751a328-fd95-4ab8-a054-12e8bdb048b9
   locale: en-US
   baseUrl: abhishekgowda28.github.io/wiki
