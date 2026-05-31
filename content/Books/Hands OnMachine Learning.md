@@ -1,15 +1,8 @@
 ---
-beginnigingDate: 2026-04-27
-completeDate:
-plannedCompleteDate:
-categories:
-  - "[[AI reference - Books]]"
-  - "[[Programming]]"
-  - "[[Machine Learning]]"
-author:
-  - "[[Aurélien Géron]]"
 publish: true
 title: Hands-OnMachine Learning with Scikit-Learnand PyTorch
+created: 2026-05-29T08:57:35.753+05:30
+modified: 2026-06-01T00:28:22.064+05:30
 ---
 
 # Hands on machine learning
