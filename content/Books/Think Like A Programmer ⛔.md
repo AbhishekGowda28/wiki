@@ -1,7 +1,7 @@
 ---
-categories:
-  - "[[Programming]]"
 publish: true
+created: 2026-05-29T08:57:35.766+05:30
+modified: 2026-06-01T00:29:23.953+05:30
 ---
 
 # Think Like A Programmer
