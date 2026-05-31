@@ -1,5 +1,7 @@
 ---
 publish: true
+created: 2026-05-29T08:57:36.070+05:30
+modified: 2026-06-01T00:07:36.155+05:30
 ---
 
 This thought is from the book [Surrounded by Idiots](https://app.thestorygraph.com/books/c3e1b2ad-767b-4a21-9335-ca78551bb912), where according to the author every person can be categorized into either of the 3 colors. The thought is not everyone is strictly categorized into the 4 colors, rather we tend to be leaning to 1 over the other 3.
