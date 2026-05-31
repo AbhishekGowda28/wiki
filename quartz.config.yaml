@@ -18,9 +18,9 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: "Orbitron"        # Soft, rounded geometric headings
-      body: "Space Grotesk"              # Pristine, incredibly clear reading text
-      code: "JetBrains Mono"
+      header: Orbitron
+      body: Space Grotesk
+      code: JetBrains Mono
     colors:
       lightMode:
         light: "#f5f7fa"
@@ -28,18 +28,18 @@ configuration:
         gray: "#9aa2b1"
         darkgray: "#212631"
         dark: "#11141a"
-        secondary: "#0284c7"      # Clear sky blue links
-        tertiary: "#0d9488"       # Deep teal hover states
-        highlight: "rgba(2, 132, 199, 0.08)"
+        secondary: "#0284c7"
+        tertiary: "#0d9488"
+        highlight: rgba(2, 132, 199, 0.08)
       darkMode:
-        light: "#0b0f17"           # Pitch-black cosmic backdrop
-        lightgray: "#182030"       # Space-blue dividers
+        light: "#0b0f17"
+        lightgray: "#182030"
         gray: "#4b5b75"
-        darkgray: "#cbd5e1"        # Clean starlight-white text
+        darkgray: "#cbd5e1"
         dark: "#f8fafc"
-        secondary: "#38bdf8"      # Glowing neon-blue links 🌌
-        tertiary: "#2dd4bf"       # Bioluminescent cyan graph nodes 🧪
-        highlight: "rgba(56, 189, 248, 0.15)"
+        secondary: "#38bdf8"
+        tertiary: "#2dd4bf"
+        highlight: rgba(56, 189, 248, 0.15)
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -151,7 +151,7 @@ plugins:
   - source: github:quartz-community/tag-page
     enabled: true
     options:
-      taxonomyKey: "categories"
+      taxonomyKey: categories
   - source: github:quartz-community/explorer
     enabled: true
     layout:
@@ -163,22 +163,22 @@ plugins:
       localGraph:
         showFollowed: true
         scale: 5
-        fontSize: 0.95            # 💡 Scales up the text labels to match your screenshot
-        nodeRadius: 8             # 💡 Makes the colored node circles larger and bolder 
+        fontSize: 0.95
+        nodeRadius: 8
       globalGraph:
         showFollowed: true
         scale: 1.2
         depth: 1
-        fontSize: 0.95            # 💡 Scales up the text labels to match your screenshot
-        nodeRadius: 8             # 💡 Makes the colored node circles larger and bolder 
+        fontSize: 0.95
+        nodeRadius: 8
     layout:
       position: right
       priority: 10
     physics:
-      dragCoeff: 0.2         # ⚙️ Makes the nodes stabilize faster
-      repulsion: 150         # ⚙️ Reduces how far notes push away from each other
-      centralGravity: 0.8    # 💡 HIGHER = Gravity pulls all nodes tightly to the center
-      linkLength: 40         # 💡 LOWER = Keeps connected notes close together
+      dragCoeff: 0.2
+      repulsion: 150
+      centralGravity: 0.8
+      linkLength: 40
   - source: github:quartz-community/search
     enabled: true
     layout:
@@ -257,7 +257,6 @@ plugins:
         GitHub: https://github.com/AbhishekGowda28
         Stack Overflow: https://stackoverflow.com/users/9437418/abhishekgowda28
         YouTube: https://www.youtube.com/channel/UCgoCC-pkN0OZ2SFtGZisgDw
-        # Bookmarks: https://abhishekgowda28.github.io/bookmark/
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
