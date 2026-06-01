@@ -1,0 +1,17 @@
+views:
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - categories == ["[[Books]]"]
+    imageAspectRatio: 0.25
+    cardSize: 290
+  - type: list
+    name: Programming - 1
+    filters:
+      and:
+        - categories.contains(link("Programming"))
+        - categories.contains(link("Books"))
+    imageAspectRatio: 0.25
+    cardSize: 290
+    indentProperties: false

@@ -1,0 +1,32 @@
+properties:
+  file.name:
+    displayName: Name
+views:
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - categories.contains(link("Online Article"))
+    order:
+      - file.name
+      - url
+    sort:
+      - property: url
+        direction: ASC
+    columnSize:
+      file.name: 569
+    imageAspectRatio: 0.25
+    imageFit: contain
+  - type: table
+    name: Table
+    filters:
+      and:
+        - categories.contains(link("Online Article"))
+    order:
+      - file.name
+      - url
+    sort:
+      - property: url
+        direction: ASC
+    columnSize:
+      file.name: 569

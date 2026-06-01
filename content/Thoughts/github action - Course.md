@@ -1,9 +1,7 @@
 ---
-categories:
-  - "[[Programming]]"
-  - "[[Pluralsight]]"
-  - "[[Notes]]"
 publish: true
+created: 2026-05-29T08:57:36.148+05:30
+modified: 2026-06-01T09:40:26.364+05:30
 ---
 
 > [!goal] Deep understanding of github actions

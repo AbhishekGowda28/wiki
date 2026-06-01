@@ -1,0 +1,17 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.mtime <= date(today()) - "1w"
+    groupBy:
+      property: categories
+      direction: ASC
+    order:
+      - file.name
+      - categories
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: file.path
+        direction: ASC
