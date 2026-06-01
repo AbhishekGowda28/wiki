@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-05-29T08:57:36.072+05:30
-modified: 2026-05-31T23:58:16.222+05:30
+modified: 2026-06-01T12:13:51.809+05:30
 ---
 
 Server Side Rendering - SSR also called as universal rendering or Isomorphic rendering
