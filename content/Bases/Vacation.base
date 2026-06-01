@@ -1,0 +1,9 @@
+views:
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - categories == ["[[Vacations]]"]
+    cardSize: 330
+    image: note.cover
+    imageFit: contain
