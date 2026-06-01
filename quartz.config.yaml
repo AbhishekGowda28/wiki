@@ -161,14 +161,23 @@ plugins:
     enabled: true
     options:
       localGraph:
-        showFollowed: true
-        scale: 5
-        fontSize: 0.95
-        nodeRadius: 8
+        drag: true
+        zoom: true
+        depth: 1
+        scale: 0
+        repelForce: 5
+        centerForce: 0.3
+        linkDistance: 30
+        fontSize: 1
+        opacityScale: 0
+        removeTags: []
+        showTags: true
+        focusOnHover: true
+        enableRadial: true
       globalGraph:
         showFollowed: true
         scale: 1.2
-        depth: 1
+        depth: -1
         fontSize: 0.95
         nodeRadius: 8
     layout:
@@ -194,6 +203,9 @@ plugins:
       priority: 30
   - source: github:quartz-community/article-title
     enabled: true
+    options:
+      showCreated: true
+      showReadingTime: true
     layout:
       position: beforeBody
       priority: 10
@@ -258,7 +270,14 @@ plugins:
         Stack Overflow: https://stackoverflow.com/users/9437418/abhishekgowda28
         YouTube: https://www.youtube.com/channel/UCgoCC-pkN0OZ2SFtGZisgDw
   - source: github:quartz-community/recent-notes
-    enabled: false
+    enabled: true
+    options:
+      title: "Recent notes"
+      limit: 5
+      linkToMore: "Thoughts"
+      layout:
+        position: body
+        priority: 10
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
