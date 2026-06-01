@@ -1,7 +1,7 @@
 ---
-categories:
-  - "[[Health 💖]]"
 publish: true
+created: 2026-05-29T08:57:36.146+05:30
+modified: 2026-06-01T10:26:03.423+05:30
 ---
 
 # Yoga
