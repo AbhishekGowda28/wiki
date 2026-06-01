@@ -37,3 +37,24 @@
     font-size: 0.75rem !important;
   }
 }
+
+
+/* 📅 CUSTOM DATE AND TIME METADATA STYLING */
+.content-meta {
+  font-family: 'JetBrains Mono', monospace !important; /* Forces your code/terminal font */
+  font-size: 0.85rem !important;                       /* Makes it slightly smaller and cleaner */
+  color: var(--gray) !important;                        /* Uses your soft theme accent color */
+  letter-spacing: 0.05em !important;                    /* Adds a sleek, modern spacing look */
+  margin-top: 0.5rem !important;
+  margin-bottom: 2rem !important;
+  display: flex;
+  gap: 8px;     
+  
+  // Custom decoration accent (e.g., adding a tiny bullet or icon color look)
+  &::before {
+    content: "⏱";
+    color: var(--secondary);                            /* Pops with your glowing theme accent color */
+    margin-right: 4px;
+    font-size: 2rem;
+  }
+}
