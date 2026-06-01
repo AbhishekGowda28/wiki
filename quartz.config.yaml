@@ -272,9 +272,9 @@ plugins:
   - source: github:quartz-community/recent-notes
     enabled: true
     options:
-      title: "Recent notes"
+      title: Recent notes
       limit: 5
-      linkToMore: "Thoughts"
+      linkToMore: Thoughts
       layout:
         position: body
         priority: 10
@@ -287,7 +287,7 @@ plugins:
       priority: 25
       display: mobile-only
   - source: github:quartz-community/bases-page
-    enabled: false
+    enabled: true
     options: {}
     order: 50
   - source: github:quartz-community/note-properties
