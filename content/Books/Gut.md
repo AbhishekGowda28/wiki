@@ -1,10 +1,10 @@
 ---
 publish: true
 created: 2026-05-29T08:57:35.752+05:30
-modified: 2026-06-06T19:06:18.170+05:30
+modified: 2026-06-06T22:08:45.103+05:30
 ---
 
-Book open with a good question to answer, how do we poop.
+Book opens with a good question to answer, how do we poop.
 
 I find it good way to start a book on gut and gut health.
 A quick summary of what I got out of it is, there are 2 chambers that help in pooping in human, an inner chamber and outer chamber.
